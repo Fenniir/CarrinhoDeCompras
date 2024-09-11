@@ -14,7 +14,7 @@ public class CarrinhoDeCompras {
     public void adicionarCompra(String nome, double preco, int quantidade) {
         listaCompras.add(new Compras(nome, preco, quantidade));
     }
-
+    
     public void removerCompra(String nome) {
         List<Compras> ComprasParaRemover = new ArrayList<Compras>();
         for(Compras c : listaCompras) {
@@ -39,6 +39,8 @@ public class CarrinhoDeCompras {
     }
 
     public static void main(String[] args) {
+        
+        // instâncias exemplo.
         CarrinhoDeCompras carrinho = new CarrinhoDeCompras();
 
         carrinho.adicionarCompra("Farinha", 5.50 , 3);
