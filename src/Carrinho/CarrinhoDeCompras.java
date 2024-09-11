@@ -1,5 +1,8 @@
+package Carrinho;
+
 import java.util.ArrayList;
 import java.util.List;
+
 
 public class CarrinhoDeCompras {
     public List<Compras> listaCompras;
