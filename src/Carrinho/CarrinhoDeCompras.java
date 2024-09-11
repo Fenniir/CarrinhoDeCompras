@@ -1,5 +1,5 @@
 package Carrinho;
-
+import Produtos.Compras;
 import java.util.ArrayList;
 import java.util.List;
 
